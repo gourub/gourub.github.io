@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
 
@@ -32,7 +32,7 @@
 <section class="banner full">
 <?php
     // Ruta de la imagen del primer artículo del banner
-    $imagen1 = 'ima/pri.jpg'; // Reemplaza con la ruta correcta de tu imagen
+    $imagen1 = 'pri.jpg'; // Reemplaza con la ruta correcta de tu imagen
 
     // Verifica si la imagen existe antes de mostrar el artículo del banner
     if (file_exists($imagen1)) {
